@@ -8,7 +8,7 @@
   tasks: 
   - name: print the variables
     vars:
-      COURSE: :"java with AWS"
+      COURSE: "java with AWS"
     ansible.builtin.debug:
       msg: "Course is {{COURSE}} , duration is {{DURATION}} hours, Trainer is {{TRAINER}}"
       
