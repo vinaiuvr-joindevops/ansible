@@ -2,4 +2,4 @@
   hosts: web
   tasks: #tasks=module=collection all are same
   - name: ping the server
-    ansible.builtin.ping: 
+    ansible.builtin.ping:
