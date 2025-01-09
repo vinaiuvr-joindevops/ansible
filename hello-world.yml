@@ -1,0 +1,3 @@
+- name: hello playbook
+  hosts: web
+  tasks: 
